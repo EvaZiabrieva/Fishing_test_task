@@ -1,0 +1,34 @@
+{
+    "name": "GameplayInputs",
+    "maps": [
+        {
+            "name": "GameplayMap",
+            "id": "6fcee11c-e9f3-4846-a2bd-867f53f62c15",
+            "actions": [
+                {
+                    "name": "Casting",
+                    "type": "Button",
+                    "id": "ff818aec-9071-4e6c-bdf4-4d288e3a983e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "39ed6dc8-fb1d-4e18-be65-b80020f344fd",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Casting",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
